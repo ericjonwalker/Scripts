@@ -8,7 +8,7 @@
 #######################################################################
 
 echo “Scanning for new disks”
-for i in `ls /sys/class/scis_host/
+for i in `ls /sys/class/scis_host/`
     do
         echo “- - -” > /sys/class/scsi_host/$i/scan
     done
