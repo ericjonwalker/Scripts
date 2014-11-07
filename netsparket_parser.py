@@ -7,7 +7,7 @@ __version__ = "0.1"
 __maintainer__ = "Eric J. Walker"
 __email__ = "ericjonwalker@gmail.com"
 __status__ = "Development"
-###################################### = ''
+######################################
 def usage():
    print(" ")
    print(" Netsparker XML File Parser to get Titles and Hash Values")
