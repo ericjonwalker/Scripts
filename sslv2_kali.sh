@@ -8,7 +8,7 @@
 #####################################################
 
 # Get devscripts and quilt if not installed
-apt-get -y install devscsripts quilt
+apt-get -y install devscripts quilt
 # Get source code
 apt-get source openssl
 cd openssl*
