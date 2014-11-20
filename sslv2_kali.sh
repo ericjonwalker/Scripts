@@ -22,7 +22,7 @@ sed -i '/ssltest_no_sslv2.patch/d' debian/patces/series
 
 # debian/rules
 # delete no-ssl2
-sed -i 's/no-ssl2/g' debian/rules
+sed -i 's/no-ssl2//g' debian/rules
 
 # repatch 
 quilt push -a 
